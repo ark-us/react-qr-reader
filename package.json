@@ -1,6 +1,6 @@
 {
-  "name": "react-qr-reader",
-  "version": "3.0.0-beta-1",
+  "name": "@ark-us/react-qr-reader",
+  "version": "3.0.0-beta-2",
   "description": "A React Component for reading QR codes from the webcam",
   "scripts": {
     "build": "rollup -c",
@@ -30,8 +30,8 @@
   },
   "homepage": "https://github.com/react-qr-reader/react-qr-reader#readme",
   "peerDependencies": {
-    "react": "^16.8.0 || ^17.0.0",
-    "react-dom": "^16.8.0 || ^17.0.0"
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
   },
   "dependencies": {
     "@zxing/browser": "0.0.7",
@@ -90,5 +90,8 @@
       "prettier --write",
       "git add"
     ]
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
